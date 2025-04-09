@@ -2,24 +2,20 @@
     "version": "10.105.270.55406",
     "homepage": "https://www.polarisoffice.com/",
     "license": "freeware",
-    "architecture":
-    {
-        "64bit":
-        {
+    "architecture": {
+        "64bit": {
             "url": "https://install.polarisoffice.com/pcoffice/PolarisOfficeSetup.exe#/dl.7z",
             "hash": "2ecf34ed3f60092ecc9d5e8af2feabde4fb7642c0ec4fe97f52db833956c9356"
         }
     },
-    "bin":
-    [
+    "bin": [
         "PolarisOffice.exe",
         "PWord.exe",
         "PSheet.exe",
         "PSlide.exe",
         "PViewer.exe"
     ],
-    "shortcuts":
-    [
+    "shortcuts": [
         [
             "PolarisOffice.exe",
             "PolarisOffice"
