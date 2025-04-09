@@ -1,6 +1,6 @@
 param(
     # overwrite upstream param
-    [String]$upstream = "ParkSnoopy/scoop:main"
+    [String]$upstream = "ParkSnoopy/dev-scoop:main"
 )
 
 if (!$env:SCOOP_HOME) { $env:SCOOP_HOME = Convert-Path (scoop prefix scoop) }
